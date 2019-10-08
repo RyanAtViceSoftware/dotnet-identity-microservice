@@ -132,7 +132,8 @@ Notes for Demo :
 `GET : localhost:5000/api/values`
 
 ### Sigining up a User
-```POST : localhost:5000/api/signup
+```
+POST : localhost:5000/api/signup
 BODY : 
 {
  "Username" : "ryan",
@@ -144,7 +145,8 @@ BODY :
 ### Confirm the User from Cognito console for now
 
 ### Sign up the user
-```POST : localhost:5000/api/signin
+```
+POST : localhost:5000/api/signin
 BODY : 
 {
  "Username" : "ryan",
@@ -153,6 +155,7 @@ BODY :
 ```
 
 ### Try the endpoint with authorization
-```GET : localhost:5000/api/signin
+```
+GET : localhost:5000/api/signin
 Header :  Authorization : Bearer <bearer token>
 ```
