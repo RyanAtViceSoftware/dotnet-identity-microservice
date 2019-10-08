@@ -146,7 +146,7 @@ BODY :
 
 ### Sign up the user
 ```
-POST : localhost:5000/api/signin
+POST : localhost:5000/api/register
 BODY : 
 {
  "Username" : "ryan",
