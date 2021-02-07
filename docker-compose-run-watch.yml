@@ -19,6 +19,9 @@ services:
       - ./tests:/app/tests
     ports:
       - 5000:5000
+    environment:
+      - AWS_ACCESS_KEY_ID=AKIA6PNTHUM5HFG3M6TJ
+      - AWS_SECRET_ACCESS_KEY=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
     command: dotnet watch --project api run
 
   reverseproxy:
